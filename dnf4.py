@@ -45,6 +45,8 @@ seq = []
 for i in xrange(1000):
     seq.append(random.randint(0, 3))
 
+print "origin seq:"
 print seq
 dnf4(seq)
+print "after dnf:"
 print seq
